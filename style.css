@@ -1,0 +1,90 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+    
+h1{
+    font-size: 60px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: dimgray;
+    line-height: 55%;
+}
+h2{
+    color: dimgray;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+}
+.orange-color{
+    color: orange;
+}
+#slategray-color{
+    color: slategray;
+    font-size: 20px;
+    margin-right: 150px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 80px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(243, 171, 36), rgb(168, 32, 8));
+    padding: 22px 55px;
+    color: white;
+    font-weight: 700;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+.top-banner{
+    margin-top: 180px;
+    margin-left: 80px;
+}
+.top-margin{
+    margin-top: 100px;
+}
+.about-me{
+    background-image: url(images/about\ me-bg.png);
+    background-repeat: no-repeat;
+}
+.bottom-margin{
+    margin-bottom: 100px;
+}
+#my-recipie{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.recipie-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px gray;
+}
+.recipie-item img{
+    width: 100%;
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 30px 60px;
+}
+#footer-header{
+    font-size: 30px;
+}
+#color-paragraph{
+    color: darkgray;
+}

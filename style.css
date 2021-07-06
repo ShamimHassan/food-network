@@ -52,9 +52,13 @@ h3{
 .top-margin{
     margin-top: 100px;
 }
-.about-me{
+#about-me{
     background-image: url(images/about\ me-bg.png);
     background-repeat: no-repeat;
+    background-size: 100%;
+}
+#about-myself{
+    margin-right: 110px;
 }
 .bottom-margin{
     margin-bottom: 100px;
@@ -65,8 +69,8 @@ h3{
 }
 .recipie-item{
     width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 2%;
@@ -77,6 +81,21 @@ h3{
     width: 100%;
     border-radius: 20px;
 }
+#recipie-margin{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#box-shadow{
+    box-shadow: 5px 5px 10px gray;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 2%;
+    border-radius: 20px;
+}
+.box-margin{
+    margin-left: 100px;
+    margin-right: 200px;
+}
 footer{
     text-align: center;
     background-color: black;
@@ -84,7 +103,9 @@ footer{
 }
 #footer-header{
     font-size: 30px;
+    margin-bottom: 5%;
 }
 #color-paragraph{
     color: darkgray;
+    margin-bottom: 5%;
 }

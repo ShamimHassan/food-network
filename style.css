@@ -1,8 +1,21 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin-top: 20px;
 }
-    
+.sign-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon, tomato);
+    padding: 10px 15px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 90%;
+    margin-right: 3%;
+}
+#sign-top-button{
+    margin-top: 1%;  
+}
 h1{
     font-size: 60px;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -46,7 +59,7 @@ h3{
     margin-top: 10px;
 }
 .top-banner{
-    margin-top: 180px;
+    margin-top: 60px;
     margin-left: 80px;
 }
 .top-margin{
